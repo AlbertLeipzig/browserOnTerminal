@@ -52,5 +52,15 @@ export const blogData = [
         "body": "Der Vater hatte den Ehrgeiz, seine Söhne auf der Universität zu sehen. Aufgrund der beschränkten Mittel war es schon schwierig, das Gymnasium zu finanzieren. Adenauer legte am 5. März 1894 das Abitur am Apostelgymnasium in Köln ab"
       }
     ]
+  },
+  {
+    "id": 4,
+    "title": "New Test",
+    "content": [
+      {
+        "title": "sdsdfg",
+        "body": "sdfnsdfnsfgmnsdrhsdfghn"
+      }
+    ]
   }
 ];

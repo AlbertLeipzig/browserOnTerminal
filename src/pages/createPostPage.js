@@ -14,9 +14,9 @@ export const createPostPage = async () => {
   const title = readlineSync.question("Title: ");
 
   const getContent = () => {
-    const section = readlineSync.question("Section title: ");
+    const title = readlineSync.question("Section title: ");
     const body = readlineSync.question("Body: ");
-    content.push({ section, body });
+    content.push({ title, body });
     if (readlineSync.keyInYN("Add another section?")) {
       getContent();
     } else {
